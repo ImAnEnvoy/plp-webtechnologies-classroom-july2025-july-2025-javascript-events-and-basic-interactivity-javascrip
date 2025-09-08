@@ -1,0 +1,39 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition: background 0.3s ease;
+}
+
+/* Dark mode toggle */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px 0;
+  border: none;
+  background: #007BFF;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover {
+  background: #0056b3;
+}
+
+/* Form styling */
+form {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 95%;
+}
